@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas y Formularios</title>
+</head>
+<body>
+
+    <h1>TABLAS</h1>
+    <table>
+        <!-- TABLE ROW -->
+        <tr> 
+            <!-- TABLE HEAD TITULO -->
+            <th>LUNES</th>
+            <th>MARTES</th>
+            <th>MIERCOLES</th>
+        </tr>
+        <!-- DEFINIMOS LA FILA DOS -->
+        <tr>
+            <!-- TABLE DATA -->
+            <td>19:30</td>
+            <td>17:30</td>
+            <td>18:30</td>
+
+        </tr>
+
+                <!-- DEFINIMOS LA FILA TRES -->
+                <tr>
+                    <!-- TABLE DATA -->
+                    <td>14:30</td>
+                    <td>15:30</td>
+                    <td>18:30</td>
+        
+                </tr>
+    </table>
+
+    <h2>FORMULARIOS</h2>
+<!-- 
+    VINCULAMOS UN LABEL CON UN INPUT PONIENDO UN ID -->
+    <!-- PLACEHOLDER LEYENDA EN TRANSPARENTE -->
+    <form>
+        <p>
+            <!-- TIPO TEXTO - el ATRIBUTO DEL FOR TIENE QUE TENER EL MISMO NOMBRE DEL INPUT QUE QUEREMOS ENLAZAR-->
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+    </p>
+    <p>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Ingresa el correo" required>
+
+           </p>
+
+           <p>
+            <label for="edad">edad</label>
+            <input type="number" id="edad" placeholder="Ingresa la edad" required>
+        </p>
+
+        <p>
+            <label for="pass">password</label>
+            <input type="password" id="pass" placeholder="Ingresa la contraseña" required>
+        </p>
+
+
+        <p>
+            <label for="tel">telefono</label>
+            <input type="tel" id="tel" placeholder="Ingresa el telefono" required>
+        </p>
+
+
+        <p>
+            <label for="check">Aceptar terminos</label>
+            <input type="checkbox" id="check" placeholder="Aceptar terminos" required>
+        </p>
+
+    <p>
+        <!-- CON EL ATRIBUTO VALUE CAMBIAMOS EL TEXTO DEL BOTON -->
+        <input type="submit">
+        <button> type="submit" </button>
+    
+    </p>
+
+    </form>
+
+
+
+</body>
+</html>
